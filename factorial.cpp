@@ -5,10 +5,8 @@ using namespace std;
 
 int factorial(int n){
     //added the code here
-    while(n<0){
-        int temp;
-        cin>>temp;
-        n=temp;
+    if(n<0){
+        return -1;
     }
 
     if(n!=1){
