@@ -15,8 +15,7 @@ int gcd(int a, int b)
  
 int main()
 {
-    int a,b;
-    cin>>a>>b;
+    int a=56,b=98;
     cout << "GCD of " << a << " and " << b << " is "
          << gcd(a, b);
     return 0;
